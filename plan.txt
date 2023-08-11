@@ -1,0 +1,20 @@
+* MODELS:
+    - flights
+    - Passengers    
+    - Reservations
+
+* Flight:
+    - clients:
+        - views flights
+        - views upcoming flights
+    
+    - staff users:
+        - CRUD flights 
+        - views all flights with Reservations 
+        
+* Reservations:
+    - clients:
+        - CRUD their own Reservations 
+
+    - staff users:
+        - CRUD all Reservations 
